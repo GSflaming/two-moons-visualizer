@@ -1,0 +1,20 @@
+{
+  "name": "two-moons-visualizer",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Drum-focused meter clock and dual-guitar animation inspired by toe.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "node scripts/check.mjs",
+    "test": "node --test",
+    "preview": "node scripts/render.mjs --snapshot --output output/preview.png",
+    "render": "node scripts/render.mjs",
+    "demo": "node scripts/demo.mjs"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "0.1.80"
+  }
+}
